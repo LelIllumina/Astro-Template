@@ -1,5 +1,8 @@
 // @ts-check
-import { defineConfig } from 'astro/config';
+import { defineConfig } from "astro/config";
 
-// https://astro.build/config
-export default defineConfig({});
+export default defineConfig({
+  site: "https://your.site.here",
+  output: "static",
+  //   server: { host: true }, // uncomment if live server dosent work for some reason
+});
