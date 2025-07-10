@@ -6,6 +6,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "astro": "astro",
     "eslint": "eslint './src/**/*.{js,ts,astro}' --fix",
     "stylelint": "stylelint './src/**/*.{css,astro}' --fix",
     "prettier": "prettier './src/**/*.{js,ts,css}' --write"

@@ -1,7 +1,8 @@
-# Astro Starter Kit: Basics
+# Astro Starter Kit: Nekoweb
+(Adapted from the Astro Basics template)
 
 ```sh
-bun create astro@latest -- --template basics
+npm create astro@latest -- --template basics
 ```
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
@@ -40,12 +41,12 @@ All commands are run from the root of the project, from a terminal:
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
-| `bun install`             | Installs dependencies                            |
-| `bun dev`             | Starts local dev server at `localhost:4321`      |
-| `bun build`           | Build your production site to `./dist/`          |
-| `bun preview`         | Preview your build locally, before deploying     |
-| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `bun astro -- --help` | Get help using the Astro CLI                     |
+| `npm install`             | Installs dependencies                            |
+| `npm dev`                 | Starts local dev server at `localhost:4321`      |
+| `npm build`               | Build your production site to `./dist/`          |
+| `npm preview`             | Preview your build locally, before deploying     |
+| `npm astro ...`           | Run CLI commands like `astro add`, `astro check` |
+| `npm astro -- --help`     | Get help using the Astro CLI                     |
 
 ## 👀 Want to learn more?
 
