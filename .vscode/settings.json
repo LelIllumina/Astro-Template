@@ -5,4 +5,5 @@
     "[astro]": {
         "editor.defaultFormatter": "astro-build.astro-vscode"
     },
+    "typescript.experimental.useTsgo": true,
 }

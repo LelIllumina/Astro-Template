@@ -2,15 +2,34 @@
 
 (Adapted from the Astro Basics template)
 
+## Getting Started
+
+Run this in a terminal to get started.
+
 ```sh
 npm create astro@latest -- --template LelIllumina/Astro-Template
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+then to start a dev server
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+```sh
+npx astro dev
+```
 
-## 🚀 Project Structure
+If you are experienced with this and want to install more integrations alongside the base templaate, use the `--add` flag:
+
+```sh
+npm create astro@latest -- --template LelIllumina/Astro-Template --add svelte --add mdx --add sitemap
+```
+
+## Prerequisites
+
+Note that you will need to have Node.js (or equivalant) installed to use npm and Astro.
+
+To use [Deploy2Nekoweb](https://deploy.nekoweb.org/) you need to install Git on your system and then push your code to github.  
+A github action is already configured in `/.github/workflows/deploy.yml` so you only need to follow the steps related to the api key on the D2N website to automatically upload your built site.
+
+## Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
 
@@ -22,7 +41,7 @@ Inside of your Astro project, you'll see the following folders and files:
 │   ├── assets
 │   │   └── astro.svg
 │   ├── components
-│   │   └── Welcome.astro
+│   │   └── Head.astro
 │   ├── layouts
 │   │   └── Layout.astro
 │   └── pages
@@ -32,19 +51,19 @@ Inside of your Astro project, you'll see the following folders and files:
 
 To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
 
-## 🧞 Commands
+## Commands
 
 All commands are run from the root of the project, from a terminal:
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
-| `npm run install`             | Installs dependencies                            |
-| `npm run dev`                 | Starts local dev server at `localhost:4321`      |
-| `npm run build`               | Build your production site to `./dist/`          |
-| `npm run preview`             | Preview your build locally, before deploying     |
-| `npm run astro ...`           | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help`     | Get help using the Astro CLI                     |
+| `npm run install`         | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Feel free to check [Astro's documentation](https://docs.astro.build) or the Nekoweb [Discord server](https://discord.gg/hvfHKyVS6b).
